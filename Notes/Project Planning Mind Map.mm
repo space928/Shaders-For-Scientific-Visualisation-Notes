@@ -1,7 +1,7 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Shaders for scientific visualisation" FOLDED="false" ID="1" CREATED="1695037865331" MODIFIED="1695037886479"><hook NAME="MapStyle" zoom="0.77">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -72,12 +72,20 @@
 <node TEXT="WebGL2 probably offers all the features we need" ID="65" CREATED="1695037865331" MODIFIED="1695037865331"/>
 <node TEXT="For use-cases such as in Google Collab, this would mean that the entire dataset to be rendered would need to be downloaded to the client. SSR avoids this but has the overhead of streaming rendered frames" ID="66" CREATED="1695037865331" MODIFIED="1695037865331"/>
 </node>
+<node TEXT="WebGPU" ID="ID_196458010" CREATED="1695303288819" MODIFIED="1695303293282">
+<node TEXT="Compute shader support" ID="ID_66936258" CREATED="1695303308991" MODIFIED="1695303321962"/>
+<node TEXT="Tighter control of GPU resources and rendering" ID="ID_1757211062" CREATED="1695303328021" MODIFIED="1695303339306"/>
+<node TEXT="Faster?" ID="ID_1680382146" CREATED="1695303345441" MODIFIED="1695303348190"/>
+</node>
 <node TEXT=" OpenGL" ID="60" CREATED="1695037865331" MODIFIED="1695037865331">
 <node TEXT="SSR + H264/PNG streaming" ID="61" CREATED="1695037865331" MODIFIED="1695037865331"/>
 <node TEXT="Can use Glumpy" ID="62" CREATED="1695037865331" MODIFIED="1695037865331"/>
 </node>
 <node TEXT="GLSL syntax highlighting support" ID="68" CREATED="1695037865331" MODIFIED="1695037865331"/>
-<node TEXT="Interactive plots support" ID="69" CREATED="1695037865331" MODIFIED="1695037865331"/>
+<node TEXT="Interactive plots support" ID="69" CREATED="1695037865331" MODIFIED="1695037865331">
+<node TEXT="IPywidget" ID="ID_565257736" CREATED="1695429816007" MODIFIED="1695429822112"/>
+<node TEXT="HTML Output" ID="ID_498481660" CREATED="1695429822689" MODIFIED="1695429837278"/>
+</node>
 <node TEXT="VSCode/PyCharm support " ID="70" CREATED="1695037865331" MODIFIED="1695037865331"/>
 </node>
 <node TEXT="Types of visualisation" ID="3" CREATED="1695037865331" MODIFIED="1695037865331">
