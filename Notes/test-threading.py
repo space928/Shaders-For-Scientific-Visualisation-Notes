@@ -152,7 +152,7 @@ def run():
     exit_flag = threading.Event()
     thread = threading.Thread(target=render_loop, args=(exit_flag,))
 
-    # render_loop(exit_flag)
+    # __render_loop(exit_flag)
     thread.start()
 
 
